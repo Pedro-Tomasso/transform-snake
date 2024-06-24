@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/214debd043.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Camel Case To Snake Upper Case</title>
+  </head>
+  <body>
+    <section class="contain grid grid-template">
+      <div class="title-div">
+        <p>Transform CamelCase To SnakeUpperCase</p>
+      </div>
+      <div class="input-div">
+        <div class="input-block">
+          <input type="text" id="word-input" required autocomplete="off" />
+          <label>Enter the word</label>
+        </div>
+        <div class="input-format">
+          <input type="text" id="formatted-input" readonly="true" />
+          <button id="btn-copy">
+            <i class="fa-solid fa-copy fa-2xl" style="color: #9e9e9e"></i>
+          </button>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button class="style-btn" type="submit" id="button-input">
+          <span class="style-btn-label-1">Format</span>
+          <span class="style-btn-label-2">Great!</span>
+        </button>
+      </div>
+      <div class="img-div">
+        <img class="style-img" src="assets/background-format.jpg" />
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
